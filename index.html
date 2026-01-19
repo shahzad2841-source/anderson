@@ -74,13 +74,20 @@
       Serving Clinton Township & Greater Michigan Area
     </div>
     
-<form id="contact-form">
-  <input type="text" name="name" placeholder="Your Name" required/>
-  <input type="email" name="email" placeholder="Your Email" required/>
-  <input type="tel" name="phone" placeholder="Phone Number" required/>
-  <textarea name="message" rows="5" placeholder="Tell us about your kitchen needs..." required></textarea>
-  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>
+<form action="https://api.web3forms.com/submit" method="POST">
+
+  <input type="hidden" name="access_key" value="c8fcdb8d-7521-4b7f-b016-d93a85085f57"> 
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <input type="tel" name="phone" placeholder="Phone Number" required> 
+
+  <textarea name="message" placeholder="Tell us about your kitchen needs..." required></textarea>
+
   <button type="submit">Send Message → Get Quote</button>
+
 </form>
   </section>
 
